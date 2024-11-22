@@ -105,7 +105,8 @@ git clone https://github.com/Sakthivel-ml/laysoffs-data-cleaning.git
 **Insert your data into the table using the INSERT INTO sales_data query.**
 
 **Execute the queries to analyze the data.**
-#License
+
+# License
 **This project is licensed under the MIT License - see the LICENSE file for details.**
 ```sql
 
