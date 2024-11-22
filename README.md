@@ -37,7 +37,7 @@ The table `sales_data` is created with the following columns:
 
    INSERT INTO sales_data SELECT * FROM retail_sales_dataset;
     ```
-#Duplicate Check with Row Number
+# Duplicate Check with Row Number
 
 **This query adds a row number to check for duplicate rows based on all columns in the dataset:**
 ```sql
@@ -46,7 +46,7 @@ SELECT *, ROW_NUMBER() OVER (
 ) AS row_num 
 FROM sales_data;
 ```
-#Total Sales Over Time
+# Total Sales Over Time
 
 **This query calculates the total sales by year and month:**
 ```sql
@@ -58,7 +58,7 @@ FROM sales_data
 GROUP BY Year_Cal, Month_Cal
 ORDER BY Year_Cal, Month_Cal;
 ```
-#Sales by Product Category
+# Sales by Product Category
 
 **This query sums the total sales per product category:**
 ```sql
@@ -69,7 +69,7 @@ FROM sales_data
 GROUP BY Products
 ORDER BY Products;
 ```
-#Sales by Customer Demographics
+# Sales by Customer Demographics
 
 **Sales by Gender**
 
@@ -83,7 +83,7 @@ FROM sales_data
 GROUP BY Gender
 ORDER BY Total_Sales DESC;
 ```
-#Top Customers by Spending
+# Top Customers by Spending
 
 **This query retrieves the top 10 customers based on the total amount spent:**
 ```sql
@@ -95,7 +95,7 @@ GROUP BY Customer_ID
 ORDER BY Total_Spent DESC
 LIMIT 10;
 ```
-#Usage
+# Usage
 **Clone the repository:**
 ```sql
 git clone https://github.com/Sakthivel-ml/laysoffs-data-cleaning.git
