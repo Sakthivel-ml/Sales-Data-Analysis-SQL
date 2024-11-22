@@ -110,5 +110,5 @@ git clone https://github.com/Sakthivel-ml/laysoffs-data-cleaning.git
 **This project is licensed under the MIT License - see the LICENSE file for details.**
 ```sql
 
-You can copy and paste this into your `README.md` file on GitHub. This will help others understand the purpose of the project, how to use the scripts, and what each SQL query does.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 ```
