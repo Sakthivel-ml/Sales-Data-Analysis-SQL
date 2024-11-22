@@ -110,5 +110,4 @@ git clone https://github.com/Sakthivel-ml/laysoffs-data-cleaning.git
 **This project is licensed under the MIT License - see the LICENSE file for details.**
 ```sql
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
+This project is licensed under the MIT License. You are free to use, modify, and distribute this project, provided proper attribution is given. See the LICENSE file for more details.```
