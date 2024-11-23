@@ -114,5 +114,6 @@ git clone https://github.com/Sakthivel-ml/Sales-Data-Analysis-SQL.git
 
 ## 🛠️ Tools Used
 **SQL: MySQL for data querying and analysis.**
+
 **Tableau: Visualizations and interactive dashboards.**
 
